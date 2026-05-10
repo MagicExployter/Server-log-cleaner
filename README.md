@@ -48,7 +48,7 @@ At the top of the script you can change:
 
 ## Automating with Cron
 
-To run the script automatically every Sunday at 3 AM:
+To run the script automatically every Saturday at 3 PM:
 
 ```bash
 sudo crontab -e
@@ -57,7 +57,7 @@ sudo crontab -e
 Add this line:
 
 ```
-0 3 * * 0 /path/to/clean_old_logs.sh >> /var/log/log_cleaner.log 2>&1
+0 15 * * 6 /path/to/Code-log-Cleaner.sh >> /var/log/log_cleaner.log 2>&1
 ```
 
 ## Requirements
