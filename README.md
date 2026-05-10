@@ -1,6 +1,6 @@
 # Server Log Cleaner
 
-A simple bash script that deletes log files older than 14 days from standard Linux and ZimaOS paths, helping keep your server's disk usage under control. Made for simplicity and no GUI.
+A simple bash script that deletes log files older than 14 days from standard Linux and ZimaOS paths, helping keep your server's disk usage under control. Made with laziness by Server Log Cleaner Dev team🦥
 
 ## Usage
 
